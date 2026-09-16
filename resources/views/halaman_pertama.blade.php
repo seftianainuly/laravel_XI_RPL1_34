@@ -7,7 +7,7 @@
     </head>
     <body>
         <!-- Hero / Home Section -->
-        <section id="home" class="min-h-screen flex items-center pt-24 pb-12 px-6 sm:px-12 lg:px-16 bg-gray-900">
+        <section class="min-h-screen flex items-center pt-12 pb-12 px-6 sm:px-12 lg:px-16 bg-gray-900">
             <div class="container mx-auto">
                 <div class="flex flex-wrap items-center">
                     <!-- Image Left -->
@@ -16,11 +16,11 @@
                             
                                 <!-- LAYER 1: Background & Foto Dasar -->
                                 <div class="absolute inset-0 bg-gray-200 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(0,230,168,0.2)]">
-                                    <img src="img/geometric-background-colorful-gradient.png" alt="Geometric Shape" class="absolute inset-0 w-full h-full object-cover mix-blend-screen opacity-90">
+                                    <img src="{{asset('img/geometric-background-colorful-gradient.png')}}" alt="Geometric Shape" class="absolute inset-0 w-full h-full object-cover mix-blend-screen opacity-90">
 
-                                    <img src="img/seftian.png" alt="Seftian Ainul Yaqin" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[135%] sm:w-[140%] lg:w-[145%] h-auto max-w-none origin-bottom scale-105">
+                                    <img src="{{asset('img/seftian.png')}}" alt="Seftian Ainul Yaqin')}}" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[135%] sm:w-[140%] lg:w-[145%] h-auto max-w-none origin-bottom scale-105">
                                 </div>
-                                <img src="img/seftian.png" alt="Seftian Ainul Yaqin Overlay" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[135%] sm:w-[140%] lg:w-[145%] h-auto max-w-none z-10 origin-bottom scale-105 drop-shadow-2xl pointer-events-none [clip-path:polygon(30%_0%,100%_0%,100%_100%,30%_50%)]">
+                                <img src="{{asset('img/seftian.png')}}" alt="Seftian Ainul Yaqin Overlay" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[135%] sm:w-[140%] lg:w-[145%] h-auto max-w-none z-10 origin-bottom scale-105 drop-shadow-2xl pointer-events-none [clip-path:polygon(30%_0%,100%_0%,100%_100%,30%_50%)]">
                             </div>
                         </div>
                     
@@ -41,11 +41,11 @@
 
                         <div class="flex flex-col gap-2 mb-8 text-gray-300">
                             <div class="flex items-center gap-2">
-                                <img src="img/check.png" alt="Check" class="w-5 h-5 object-contain">
+                                <img src="{{asset('img/check.png')}}" alt="Check" class="w-5 h-5 object-contain">
                                 Available for Hire
                             </div>
                             <div class="flex items-center gap-2">
-                                <span class="text-yellow-400"><img src="img/light.png" alt="Lightningt" class="w-5 h-5 object-contain"></span>
+                                <span class="text-yellow-400"><img src="{{asset('img/light.png')}}" alt="Lightningt" class="w-5 h-5 object-contain"></span>
                                 Fast for Work
                             </div>
                         </div>
@@ -56,15 +56,15 @@
                             </button>
 
                             <button onclick="downloadCV()" class="border-2 border-white text-white font-bold py-3 px-8 rounded-md hover:bg-white hover:text-black transition inline-flex items-center justify-center gap-2 cursor-pointer">
-                                <img src="img/download.png" alt="Download" class="w-5 h-5 shrink-0 filter invert">
+                                <img src="{{asset('img/download.png')}}" alt="Download" class="w-5 h-5 shrink-0 filter invert">
                                 <span>Download CV</span>
                             </button>
                             
                             <!-- Social Icons -->
                             <div class="flex space-x-4 ml-auto mt-6 lg:mt-0 bg-white px-4 py-2 rounded-lg">
-                                <a href="#" class="text-black hover:text-cyan-accent"><img src="img/instagram.png" alt="Instagram" class="w-6 h-6 object-contain"></a>
-                                <a href="#" class="text-black hover:text-cyan-accent"><img src="img/github.png" alt="GitHub" class="w-6 h-6 object-contain"></a>
-                                <a href="#" class="text-black hover:text-cyan-accent"><img src="img/tik-tok.png" alt="TikTok" class="w-6 h-6 object-contain"></a>
+                                <a href="#" class="text-black hover:text-cyan-accent"><img src="{{asset('img/instagram.png')}}" alt="Instagram" class="w-6 h-6 object-contain"></a>
+                                <a href="#" class="text-black hover:text-cyan-accent"><img src="{{asset('img/github.png')}}" alt="GitHub" class="w-6 h-6 object-contain"></a>
+                                <a href="#" class="text-black hover:text-cyan-accent"><img src="{{asset('img/tik-tok.png')}}" alt="TikTok" class="w-6 h-6 object-contain"></a>
                             </div>
                         </div>
                     </div>
@@ -73,4 +73,4 @@
         </section>
         <!-- Close Hero Section -->
     </body>
-</html>``
+</html>
