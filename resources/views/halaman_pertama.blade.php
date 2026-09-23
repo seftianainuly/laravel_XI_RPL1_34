@@ -13,16 +13,15 @@
                     <!-- Image Left -->
                     <div class="w-full lg:w-5/12 mb-12 lg:mb-0 lg:mt-10 flex justify-center lg:justify-start">
                         <div class="relative w-64 h-80 sm:w-80 sm:h-96 lg:w-100 lg:h-125">
-                            
-                                <!-- LAYER 1: Background & Foto Dasar -->
-                                <div class="absolute inset-0 bg-gray-200 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(0,230,168,0.2)]">
-                                    <img src="{{asset('img/geometric-background-colorful-gradient.png')}}" alt="Geometric Shape" class="absolute inset-0 w-full h-full object-cover mix-blend-screen opacity-90">
+                            <!-- LAYER 1: Background & Foto Dasar -->
+                            <div class="absolute inset-0 bg-gray-200 rounded-xl overflow-hidden shadow-[0_0_20px_rgba(0,230,168,0.2)]">
+                                <img src="{{asset('img/geometric-background-colorful-gradient.png')}}" alt="Geometric Shape" class="absolute inset-0 w-full h-full object-cover mix-blend-screen opacity-90">
 
-                                    <img src="{{asset('img/seftian.png')}}" alt="Seftian Ainul Yaqin')}}" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[135%] sm:w-[140%] lg:w-[145%] h-auto max-w-none origin-bottom scale-105">
-                                </div>
-                                <img src="{{asset('img/seftian.png')}}" alt="Seftian Ainul Yaqin Overlay" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[135%] sm:w-[140%] lg:w-[145%] h-auto max-w-none z-10 origin-bottom scale-105 drop-shadow-2xl pointer-events-none [clip-path:polygon(30%_0%,100%_0%,100%_100%,30%_50%)]">
+                                <img src="{{asset('img/seftian.png')}}" alt="Seftian Ainul Yaqin')}}" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[135%] sm:w-[140%] lg:w-[145%] h-auto max-w-none origin-bottom scale-105">
                             </div>
+                            <img src="{{asset('img/seftian.png')}}" alt="Seftian Ainul Yaqin Overlay" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-[135%] sm:w-[140%] lg:w-[145%] h-auto max-w-none z-10 origin-bottom scale-105 drop-shadow-2xl pointer-events-none [clip-path:polygon(30%_0%,100%_0%,100%_100%,30%_50%)]">
                         </div>
+                    </div>
                     
                     <!-- Text Right -->
                     <div class="w-full lg:w-7/12 lg:pl-10">
