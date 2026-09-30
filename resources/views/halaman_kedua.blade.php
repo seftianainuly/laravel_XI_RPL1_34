@@ -17,10 +17,10 @@
                         </div>
                     </div>
 
-                    <div class="w-full leading-relaxed pr-32 bg-blend-multiply">
-                        <h1 class="text-4xl mb-2.5 font-bold text-green-500">ES TEH</h1>
-                        <p class="font-normal text-green-900">Ini adalah sebuah minuman dengan cita rasa khas di tiap tegukan, minuman sejuta umat yang bisa kita temukan dimana-mana. <br>Sebuah minuman yang memberikan kenikmatan tiada tara dengan harga yang sangat terjangkau. Biasanya, harganya sekitar Dua Ribu samapai Lima Ribu Rupiah sahaja.</p>
-                        <div class="flex flex-wrap items-center mt-12">
+                    <div class="w-full bg-white/15 rounded-lg leading-relaxed pr-32 bg-blend-multiply">
+                        <h1 class="text-4xl mb-2.5 m-12 font-bold text-green-500">ES TEH</h1>
+                        <p class="font-normal m-12 text-green-900">Ini adalah sebuah minuman dengan cita rasa khas di tiap tegukan, minuman sejuta umat yang bisa kita temukan dimana-mana. <br>Sebuah minuman yang memberikan kenikmatan tiada tara dengan harga yang sangat terjangkau. Biasanya, harganya sekitar Dua Ribu samapai Lima Ribu Rupiah sahaja.</p>
+                        <div class="flex flex-wrap items-center mt-12 m-12">
                             <button class="bg-green-700 py-2 px-4 rounded-lg font-medium text-white">Lihat Resep</button>
                         </div>
                     </div>

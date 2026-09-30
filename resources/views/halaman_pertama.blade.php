@@ -6,6 +6,8 @@
         @vite('resources/css/app.css')
     </head>
     <body>
+
+
         <!-- Hero / Home Section -->
         <section class="min-h-screen flex items-center pt-12 pb-12 px-6 sm:px-12 lg:px-16 bg-gray-900">
             <div class="container mx-auto">
@@ -26,7 +28,7 @@
                     <!-- Text Right -->
                     <div class="w-full lg:w-7/12 lg:pl-10">
                         <p class="text-gray-300 text-lg mb-2">Making a modern website with,</p>
-                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-green-700 mb-6 uppercase tracking-wider">
+                        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-cyan-300 mb-6 uppercase tracking-wider">
                             Seftian Ainul Yaqin
                         </h1>
                         
@@ -50,7 +52,7 @@
                         </div>
 
                         <div class="flex flex-wrap items-center gap-4">
-                            <button onclick="openWhatsApp()" class="bg-green-700 text-black font-bold py-3 px-8 rounded-md hover:bg-teal-400 transition shadow-lg text-center cursor-pointer">
+                            <button onclick="openWhatsApp()" class="bg-cyan-300 text-black font-bold py-3 px-8 rounded-md hover:bg-teal-400 transition shadow-lg text-center cursor-pointer">
                                 Contact Me
                             </button>
 
