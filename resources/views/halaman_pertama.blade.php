@@ -51,7 +51,7 @@
                             </div>
                         </div>
 
-                        <div class="flex flex-wrap items-center gap-4">
+                        <div class="flex flex-wrap items-center mt-12 gap-4">
                             <button onclick="openWhatsApp()" class="bg-cyan-300 text-black font-bold py-3 px-8 rounded-md hover:bg-teal-400 transition shadow-lg text-center cursor-pointer">
                                 Contact Me
                             </button>
@@ -62,11 +62,9 @@
                             </button>
                             
                             <!-- Social Icons -->
-                            <div class="flex space-x-4 ml-auto mt-6 lg:mt-0 bg-white px-4 py-2 rounded-lg">
-                                <a href="#" class="text-black hover:text-cyan-accent"><img src="{{asset('img/instagram.png')}}" alt="Instagram" class="w-6 h-6 object-contain"></a>
-                                <a href="#" class="text-black hover:text-cyan-accent"><img src="{{asset('img/github.png')}}" alt="GitHub" class="w-6 h-6 object-contain"></a>
-                                <a href="#" class="text-black hover:text-cyan-accent"><img src="{{asset('img/tik-tok.png')}}" alt="TikTok" class="w-6 h-6 object-contain"></a>
-                            </div>
+                            <button class="border-2 border-white text-white font-bold py-3 px-8 rounded-md hover:bg-white hover:text-black transition inline-flex items-center justify-center gap-2 cursor-pointer">
+                                <a href="/hal2">My Fav Minuman</a>
+                            </button>
                         </div>
                     </div>
                 </div>
